@@ -1,0 +1,19 @@
+/*members pages*/
+
+.members{
+	text-align: center;
+  border-radius: 6px;
+  background-color: rgb(194, 212, 226);
+}
+
+.addmembers{
+	text-align: left;
+}
+
+.membersbtn{
+	margin: 50px;
+}
+
+.membersbtn input{
+	margin: 20px;
+}

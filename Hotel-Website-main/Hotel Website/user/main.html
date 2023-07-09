@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hotel Website</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://kit.fontawesome.com/fd65af94cc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#amenities">Amenities</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" style="background-image: url('img/doubletree.png'); background-size: cover; background-repeat: no-repeat;">
+		<h1>Welcome to DoubleTree by Hilton Hotel Columbus</h1>
+		<p>We offer comfortable and affordable rooms for your stay.</p>
+	</section>
+
+    <section id="rooms" style="background-color: #e4efdf; padding: 20px;">
+    <h2 class="center">Our Rooms</h2>
+    <div class="rooms-container">
+        <div class="room">
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>
+                        <div class="room-box">
+                            <img src="img/standardRoom.jpg" alt="Room 1">
+                            <h3>Standard Room</h3>
+                            <p>Our standard room is comfortable and affordable. It includes a private bathroom and cable TV.</p>
+							<a href="standard_room.html">
+                            <button>Details</button>
+							</a>
+							<p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="room">
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>
+                        <div class="room-box">
+                            <img src="img/DeluxeRoom.jpg" alt="Room 2">
+                            <h3>Deluxe Room</h3>
+                            <p>Our deluxe room is more spacious and includes additional amenities such as a mini fridge and coffee maker.</p>
+							<a href="Delux_room.html">
+                            <button>Details</button>
+							</a>
+							<p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="room">
+            <table style="border: 1px solid black;">
+                <tr>
+                    <td>
+                        <div class="room-box">
+                            <img src="img/suiteroom.jpg" alt="Room 3">
+                            <h3>Suite Room</h3>
+                            <p>Our suite room is our most luxurious option, featuring a separate living area and a jacuzzi tub.</p>
+							<a href="Suite_room.html">
+                            <button>Details</button>
+							</a>
+							<p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+
+
+    <section id="amenities">
+		<div class="amenities-container">
+		<div class="text">
+        <h2 style="text-align: center; font-weight: lighter; font-family: serif;">Amenities</h2>
+		<p>Our dining options include a restaurant on-site, serving delicious meals and refreshing drinks throughout the day. Whether you're in the mood for a hearty breakfast, a quick lunch, or a romantic dinner, we have something to suit every taste and appetite.
+
+Our fitness center is fully equipped with state-of-the-art workout equipment, including treadmills, ellipticals, weight machines, and free weights. Whether you're looking to stay in shape during your stay or simply want to relax and unwind, our fitness center is the perfect place to do so.
+
+Our business center is equipped with all the necessary tools and technologies to help you stay productive and connected while on the road. From high-speed internet access and printing services to video conferencing and private meeting rooms, we have everything you need to conduct business with ease.
+
+Our housekeeping service is provided daily to ensure that your room is always clean and tidy, and that you have everything you need to feel at home. Whether you need fresh linens, extra towels, or any other amenities, our housekeeping team is here to help.
+
+In short, our hotel offers a wide range of amenities to make your stay as comfortable and enjoyable as possible. Whether you're here for business or pleasure, we have everything you need to make the most of your time with us.</p>
+		
+		<div class="content">
+			<div class="box flex">
+			<i class="fa-solid fa-utensils"></i>
+			<span>Dining</span>
+		</div>
+		<div class="content">
+			<div class="box flex">
+			<i class="fa-sharp fa-solid fa-dumbbell"></i>
+			<span>Fitness Center</span>
+		</div>
+		<div class="content">
+			<div class="box flex">
+			<i class="fa-solid fa-briefcase"></i>
+			<span>Business Center</span>
+		</div>
+		<div class="content">
+			<div class="box flex">
+			<i class="fa-solid fa-house"></i>
+			<span>Housekeeping Service</span>
+		</div>
+		<div align="center">
+			<a href="amenities.html">
+            <button>Read More</button>
+			 </a>
+		</div>
+</section>
+
+    <section id="about" style="background-color: #e4efdf; padding: 20px;">
+        <h2 style="text-align: center; font-weight: lighter; font-family: serif;">About Our Hotel</h2>
+        <p>Welcome to DoubleTree by Hilton Hotel, located in the heart of the city! Our hotel offers the perfect blend of comfort, affordability, and convenience for travelers. Whether you're here for business or pleasure, our friendly staff will go above and beyond to ensure your stay is as pleasant as possible. With a range of amenities including a fitness center, complimentary breakfast and high-speed internet, you'll have everything you need to make your stay at Ohio Hotel a memorable one. Imagine yourself relaxing in one of our comfortable rooms, taking in the city views and experiencing the best of what the city has to offer. Book your stay at Ohio Hotel today and experience the ultimate in city living.</p>
+    </section>
+
+    <section id="login" align="center">
+        <h2>Login</h2>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+    
+
+    <section id="registration" align= "center"style="background-color: #e4efdf; padding: 20px;">
+        <h2>Registration</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <br>
+            <input type="submit" value="Register">
+        </form>
+    </section>
+	
+	<section>
+		<embed style="width: 720px; height: 720px;" <iframe width="560" height="315" src="https://www.youtube.com/embed/6H56pqjcND4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</section>
+	
+	<section>
+		<h1 align="center">Where to find us</h1>
+		<p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12205.189375353479!2d-83.0196571302246!3d40.1133766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838f346ce3d48e1%3A0x8763dab87e431ba0!2sDoubleTree%20by%20Hilton%20Hotel%20Columbus%20-%20Worthington!5e0!3m2!1sen!2smy!4v1674738600294!5m2!1sen!2smy" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+	</section>
+</body>
+</html>

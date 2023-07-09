@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Ohio Form</title>
+    <link rel="stylesheet" type="text/css" href="testing.css">
+  </head>
+
+
+<body>
+  <header>
+    <nav>
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          
+      </ul>
+  </nav>
+    <h1>Hotel Feedback</h1>
+    <img src="img/doubletree.png" alt="Hotel Amenities" width="500" height="300">
+  </header>
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="comments">Comment:</label>
+    <textarea id="comments" name="comments" rows="5" required></textarea>
+    
+    <label for="rating">Rating:</label>
+    <select id="rating" name="rating" required>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+  <script>
+  const form = document.querySelector("form");
+  const name = document.querySelector("#name");
+  const email = document.querySelector("#email");
+  const comments = document.querySelector("#comments");
+  const rating = document.querySelector("#rating");
+
+form.addEventListener("submit", function(e) {
+  e.preventDefault();
+  if (!name.value || !email.value || !comments.value || !rating.value) {
+    alert("Please fill out all fields before submitting the form.");
+  } else {
+    // handle form submission here
+    // You can use Fetch API or XMLHttpRequest to send the form data to your server
+  }
+});
+
+</script>
+
+
+</body>
+</html>

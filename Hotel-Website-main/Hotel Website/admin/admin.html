@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <title>Ohio Hotel Admin</title>
+</head>
+
+<body>
+    <header>
+        <h2>Ohio Hotel</h2>
+    </header>
+
+    <div class="sidebar">
+        <a href="admin.html"><i class="fa fa-fw fa-home"></i> Admin</a>
+        <a href="service.html"><i class="fa-solid fa-bed"></i> Services</a>
+        <a href="staffs.html"><i class="fa fa-fw fa-user"></i> Staffs</a>
+        <a href="members.html"><i class="fa-solid fa-user-tie"></i> Member</a>
+        <a href="order.html"><i class="fa-solid fa-cart-shopping"></i> Order</a>
+    </div>
+
+    <div class="main">
+        <div id="admindash">
+            <h1><i class="fa-solid fa-user"></i>Admin Dashboard</h1>
+            <h3 id="header3">Section</h3>
+            
+            <div class="service">
+                <h3><a href="service.html">Services</a></h3>
+                <div class="row">
+
+                    <div class="column">
+                        <img class="img_responsive" src="img/standardRoom.jpg" alt="One bedroom ">
+                        <a href="">One Bedroom</a>
+                        <p>Room with simple needs</p>
+                    </div>
+                    <div class="column">
+                        <img class="img_responsive" src="img/DeluxeRoom.jpg" alt="Two Bedroom1">
+                        <a href="">Two Bedroom</a>
+                        <p>Room For 2 people</p>
+                    </div>
+                    <div class="column">
+                        <img class="img_responsive" src="img/suiteroom.jpg" alt="One bedroom ">
+                        <a href="">Executive Suite</a>
+                        <p>Room for maximum relaxation</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="order">
+            <h3><a href="order.html">Order Room</a></h3>
+            <div class="row">
+
+                <div class="column">
+                   <p>
+                    <i class="fa-solid fa-eye"></i>
+                        Access current order
+                    </p>
+                   <a href="php/view_order.php">View Order</a>
+                </div>
+                <div class="column">
+                    <p>
+                        <i class="fa-solid fa-cart-plus"></i>
+                        Add order for a room
+                    </p> 
+                    <a href="order.html">Add Order</a>
+                </div>
+                <div class="column">
+                    <p>
+                        <i class="fa-regular fa-pen-to-square"></i>
+                        Edit an order
+                    </p>
+                    <a href="php/view_order.php">Edit order</a>
+                </div>
+
+            </div>
+            <div class="sales_report">
+                <p>View current sales report</p>
+                <a href="php/sales_report.php">
+                    <i class="fa fa-usd"></i>
+                    Sales report
+                </a>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+
+</html>

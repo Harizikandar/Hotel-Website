@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/Members.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2>Ohio Hotel</h2>
+    </header>
+
+    <div class="sidebar">
+        <a href="admin.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="service.html"><i class="fa-solid fa-bed"></i> Services</a>
+        <a href="staffs.html"><i class="fa fa-fw fa-user"></i> Staffs</a>
+        <a href="members.html"><i class="fa-solid fa-user-tie"></i> Member</a>
+        <a href="order.html"><i class="fa-solid fa-cart-shopping"></i> Order</a>
+    </div>
+
+    <div class="main">
+        <div id="admindash">
+            <h1><i class="fa-solid fa-user"></i>Admin Dashboard</h1>
+            <h2>Members</h2>
+            <div class="members">
+                <h2>Add New Members</h2>
+
+                <form class="addmembers" name="addmembers" method="post" action="php/add_members.php">
+                    <p><label>Members Name: </label><input type="text" name="members_name" size="80">
+					<p><label>Members id: </label><input type="text" name="members_id" size="10">
+					<p><label>Company: </label><input type="text" name="members_company" size="80">
+					<p><label>Members age: </label><input type="text" name="members_age" size="10">
+					<p><label>Shares Value: </label><input type="text" name="members_shvalue" size="10">
+					<div class="membersbtn">
+                    <br><input type="submit" name="addbtn" value="Add">
+					<input type="submit" name="viewbtn" value="View" href="php/view_members.php">
+                    <input type="submit" name="delbtn" value="Delete" href="php/delete_members.php">
+					<input type="submit" name="updatebtn" value="Edit Members" href="php/edit_members.php">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

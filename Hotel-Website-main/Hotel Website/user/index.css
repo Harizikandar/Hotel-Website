@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 2em;
+}
+
+
+section#home {
+    text-align: center;
+}
+
+section#home h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+section#home img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+section#home button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+.center {
+    text-align: center;
+	font-weight: lighter;
+	font-family: serif;
+	
+}
+
+.rooms-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.room {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.room img {
+    width: 100%;
+    height: auto;
+}
+
+.room h3 {
+    font-size: 2em
+
+.room p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.room button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+section#registration {
+    text-align: center;
+}
+
+section#registration form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 2em;
+}
+section#registration label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+section#registration input[type="text"],
+section#registration input[type="email"],
+section#registration input[type="password"] {
+    padding: 0.5em;
+    font-size: 1.2em;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+section#registration input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}
+
+section#login {
+    text-align: center;
+}
+
+section#login form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 2em;
+}
+section#login label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+section#login input[type="email"],
+section#login input[type="password"] {
+    padding: 0.5em;
+    font-size: 1.2em;
+    width: 90%;
+    margin-bottom: 1em;
+}
+
+section#login input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+}

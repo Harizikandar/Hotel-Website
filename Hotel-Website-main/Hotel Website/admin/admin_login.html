@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <script src="js/index.js"></script>
+    <title>Ohio Hotel Admin</title>
+
+    <style>
+        .main_login{
+            color: black;
+            background-color: white;
+            width: fit-content;
+            margin: 2px auto;
+            padding: 7px 10px;
+
+            text-align: center;
+            border-radius: 9px;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Ohio Hotel</h2>
+    </header>
+
+    <div class="main_login">
+        <h2>Admin LOGIN</h2>
+        <div class="login_form">
+            <form method="post" action="php/login.php">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" size="30"><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" size="30"><br>
+                <input type="submit" value="Login">
+              </form>
+        </div>
+    </div>
+</body>
+
+</html>

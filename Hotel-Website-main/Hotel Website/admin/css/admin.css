@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    color: black;
+    background-color: rgb(46, 46, 143);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    margin: 5px 0px;
+    padding: 0%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+    background-color: rgb(63, 63, 155);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    border-radius:7px;
+}
+
+.main_login{
+  color: black;
+  background-color: white;
+
+  text-align: center;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 16px;
+    text-align: left;
+}
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+.sidebar a:hover {
+  color: black;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  transition-duration: 0.5s;
+}
+  
+.main{
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 160px;
+  padding: 3px 10px;
+  background-color:white;
+  border-radius: 5px;
+}
+
+#admindash{
+  font-size: 20px;
+}
+#admindash i{
+  padding: 0 15px;
+}
+#header3{
+  font-size: 25px; 
+  text-align: center;
+}
+
+/*Service Section*/
+.service{
+  text-align: center;
+  border-radius: 6px;
+  background-color: rgb(194, 212, 226);
+}
+.service h3{
+  padding: 5px 15px;
+}
+.row{
+  display: flex;
+}
+.column{
+  flex: 55%;
+  padding: 0 5px;
+}
+.img_responsive{
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  margin: 5px auto;
+  border-radius: 9px;
+}
+.service a{
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #312f2f;
+  background-color: whitesmoke;
+}
+.service a:hover{
+  padding: 0 5px;
+  color: whitesmoke;
+  background-color: #818181;
+  text-align: center;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+.addroom{
+  text-align: left;
+}
+.addroom p{
+  padding: 0 15px;
+}
+
+
+.order{
+  text-align: center;
+  border-radius: 6px;
+  background-color: rgb(194, 212, 226);
+}
+.order a{
+  width: auto;
+  height: auto;
+  margin: 15px;
+  padding: 4px 7px;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #312f2f;
+  background-color: whitesmoke;
+}
+.order a:hover{
+  padding: 0 5px;
+  color: whitesmoke;
+  background-color: #818181;
+  text-align: center;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+
+#admindash p{
+  margin: 10px 10px;
+}
+#view_list {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  color: #312f2f;
+  background-color: whitesmoke;
+}
+
+#view_list:hover{
+  padding: 0 5px;
+  color: whitesmoke;
+  background-color: #818181;
+  text-align: center;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
